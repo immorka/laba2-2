@@ -1,0 +1,45 @@
+body{
+    font-family: 'Jost', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url("back.jpg");
+}
+form{
+    color: aliceblue;
+    font-size:x-large;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    background-color: rgb(56, 5, 56);
+    padding: 15px;
+    border-color: rgb(132, 206, 171);
+    border-width: 5px;
+    border-style:solid;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
+}
+
+#password{
+    border-color: rgb(132, 206, 171);
+    border-width: 2px;
+}
+
+#login{
+    border-color: rgb(132, 206, 171);
+    border-width: 2px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    width: 200px;
+    border-style: double;
+    color: aliceblue;
+    background-color: darkslateblue;
+    border-width: 1px;
+}
